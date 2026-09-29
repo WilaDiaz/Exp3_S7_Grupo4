@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: cuentas-api
+  config:
+    import: configserver:http://localhost:8888
